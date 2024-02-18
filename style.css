@@ -1,7 +1,6 @@
-/* p h1 h2 h3 h4 h5 h6{
-    margin-top: 0px;
-    margin-bottom: 0px;
-} */
+body{
+    margin: 0px;
+}
 /* banner section */
 .banner-section {
     background-image: url(./resources/Banner\ Image.png);
@@ -12,6 +11,7 @@
     text-align: center;
     margin-bottom: 12px;
     height: 80vh;
+    margin-top: 50px;
 }
 .banner-child {
     border-radius: 16px;
@@ -248,4 +248,39 @@
     font-size: 20px;
     font-weight: 600;
     margin-left: -5px;
+}
+
+/* footer */
+
+.footer{
+    background: #070211;
+    padding: 80px 5vw 80px 5vw;
+}
+.footer-text{
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+}
+.footer-address{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+hr{
+    margin: 30px 0px 30px 0px;
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+}
+.footer-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
