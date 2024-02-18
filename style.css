@@ -1,4 +1,3 @@
-
 /* p h1 h2 h3 h4 h5 h6{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -152,42 +151,65 @@
     text-transform: uppercase;
 }
 /* best offer */
-.best-offer{
+.best-offer {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
     margin-bottom: 120px;
 }
-.best-offer-left h4{
-    color: #F00;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 16px;
+.best-offer-left-subtitle,
+.awesome-portfolio-subtitle {
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
-.best-offer-left h2{
-color: #070211;
-font-size: 48px;
-font-weight: 900;
-margin-top: 0px;
-margin-bottom: 0px;
+.best-offer-left-title,
+.awesome-portfolio-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.best-offer-left,.best-offer-right p{
-color: rgba(7, 2, 17, 0.60);
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; 
-width: 80%;
+.best-offer-left-description,
+.best-offer-right-description,
+.awesome-portfolio-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 80%;
 }
-.best-offer-center img{
-border: 15px solid #F00;
-border-radius: 100%; 
-padding: 30px;  
+.best-offer-center img {
+    border: 15px solid #f00;
+    border-radius: 100%;
+    padding: 30px;
 }
 
-.best-offer-right h4{
-    color: #F00;
-font-size: 48px;
-font-weight: 700;
-margin-bottom: 0px;
+.best-offer-right h4 {
+    color: #f00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+/* our awsome portfolio */
+.awesome-portfolio {
+    margin-bottom: 120px;
+}
+.awesome-portfolio-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 48px;
+    gap: 24px;
+    justify-items: stretch;
+}
+
+.awesome-portfolio-singleimg:hover {
+    transform: scale(1.1);
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
 }
